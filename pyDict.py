@@ -45,3 +45,21 @@ if "price" in thisdict:
 else:
     print("No, 'Price' is not the key in the thisdict dictionry")
 
+# Removing Items
+thisdict.pop("model")
+print(thisdict)
+
+# The popitem() method removes the last inserted item
+thisdict.popitem()
+print(val)
+
+# The del keyword removes the item with the specified key name
+del thisdict["color"]
+print(val)
+print("delete color key")
+# The del keyword can also delete the dictionary completely
+# del thisdict
+
+# The clear() method empties the dictionary
+thisdict.clear()
+print(thisdict)
