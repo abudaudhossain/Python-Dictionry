@@ -35,3 +35,13 @@ print(val)
 # use items method
 val = thisdict.items()
 print(val)
+
+if "model" in thisdict:
+    print("Yes, 'model' is onr of the key in the thisdict dictionry")
+
+if "price" in thisdict:
+    print("Yes, 'price' is one of the key in the thisdict dictionry")
+
+else:
+    print("No, 'Price' is not the key in the thisdict dictionry")
+
